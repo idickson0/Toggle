@@ -24,6 +24,14 @@ namespace Toggle
             state = initialState;
         }
 
+        public void serialize()
+        {
+            //write important data to file
+            //probably things constructor wants.  x, y, state
+            //needs way to detect waht object to place
+            int x;
+        }
+
         public void switchState(){
             state = !state;
         }
